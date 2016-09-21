@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="conf"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/Projects/Java/service/lib/activation.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/Java/service/lib/axis.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/Java/service/lib/axis-ant.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/Java/service/lib/classes12.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/Java/service/lib/commons-discovery.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/Java/service/lib/commons-discovery-0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/Java/service/lib/commons-httpclient-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/Java/service/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/Java/service/lib/excel.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/Java/service/lib/htmlparser.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/Java/service/lib/http_client.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/Java/service/lib/inet.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/Java/service/lib/jaxrpc.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/Java/service/lib/json-20080701.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/Java/service/lib/junit.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/Java/service/lib/log4j-1.2.8.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/Java/service/lib/mail.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/Java/service/lib/mysql-connector-java-5.1.6-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/Java/service/lib/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/Java/service/lib/pagertag.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/Java/service/lib/primrose.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/Java/service/lib/proxool-0.9.0RC3.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/Java/service/lib/saaj.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/Java/service/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/Java/service/lib/soap.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/Java/service/lib/unittest.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/Java/service/lib/wsdl4j.jar"/>
+	<classpathentry kind="lib" path="C:/Projects/JavaLib/java/c3p0-0.9.1.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
