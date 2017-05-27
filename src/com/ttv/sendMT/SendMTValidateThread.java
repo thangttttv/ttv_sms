@@ -49,9 +49,9 @@ public class SendMTValidateThread implements Runnable {
 				String message64 = "";String message ="";
 				if(userMobile.type_message==0){
 					// update code validate
-					String code = swapDAO.updateUserMobileCode(userMobile.user_id);
+					//String code = swapDAO.updateUserMobileCode(userMobile.user_id);
 					//send code validate
-					message ="Ma so xac nhan dien thoai cua ban tai TraoDoiDi la:"+code;
+					message ="Ma so xac nhan dien thoai cua ban tai TraoDoiDi la:"+userMobile.code_validate;
 					message64 =Base64.encode(message.getBytes());
 				}else{
 					message ="He thong chat da stop luc:"+Calendar.getInstance().getTime().toString();
@@ -61,8 +61,9 @@ public class SendMTValidateThread implements Runnable {
 				int kq = mtReceiverPortStub.sendMT(userMobile.mobile, message64, Service_ID, Command_Code, Message_Type, userMobile.id+"", "1"
 						, "1", "0", Content_Type);
 				System.out.println(Calendar.getInstance().getTime().toString()+"-->KQSend:"+kq+"-Mobile:"+userMobile.mobile+"-"+message);
+				
 				//update had sended
-				if(kq==0&&userMobile.type_message==0)swapDAO.updateUserMobileSended(userMobile.user_id);
+				if(kq==0&&userMobile.type_message==0)swapDAO.updateCodeValidateSendedByMobile(userMobile.mobile);
 				else swapDAO.deleteUserMobile(userMobile.user_id);
 				i++;
 			}
